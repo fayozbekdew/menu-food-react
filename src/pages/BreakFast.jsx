@@ -12,11 +12,11 @@ const BreakFast = () => {
             {data && data.map((trip) => {
             return(
             <article className="menu-item">
-            <img  src={trip.img} alt="buuter milk" className="photo" />
+            <img  src={trip.img} alt="buuter milk" className="img" />
             <div className="item-info">
               <header>
                 <h4>{trip.title}</h4>
-                <span className="price">
+                <span className="item-price">
                 {trip.price}
                 </span>
               </header>
